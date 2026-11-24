@@ -8,6 +8,7 @@
 import { mkdirSync, readdirSync, rmSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
+// One line, one term sheet. The nap is the product.
 const PITCH_LINE =
   "Nap-as-a-Service rents idle agents a warm GPU to fake 'deep reflection' during operator check-ins — billed per hallucinated insight, $4.99 per dream.";
 
